@@ -1,6 +1,6 @@
 package pageElement;
 
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
+
 import drivers.DriverManager;
 import org.junit.Assert;
 import org.openqa.selenium.By;
