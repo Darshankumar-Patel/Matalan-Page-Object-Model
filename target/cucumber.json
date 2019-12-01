@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Search for an item",
+        "description": "",
+        "id": "search;search-for-an-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13557380300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page",
+            "match": {
+              "location": "SearchSteps.i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3481016700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for a \"Boys school uniform\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Boys school uniform",
+                  "offset": 16
+                }
+              ],
+              "location": "SearchSteps.i_search_for_a(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2158637600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to see Boys school uniform page",
+            "match": {
+              "location": "SearchSteps.i_should_be_able_to_see_Boys_school_uniform_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "As a user\r\nI want to search an item\r\nso that I can see the desired item",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "src/test/resources/search.feature"
+  }
+]
