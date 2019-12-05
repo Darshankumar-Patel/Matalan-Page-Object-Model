@@ -5,7 +5,7 @@ Feature: Search
 
   Scenario: Search for an item
     Given I am on home page
-    When I search for a "Boys school uniform"
-    Then I should be able to see Boys school uniform page
+    When I search for a "Christmas Jumpers"
+    Then I should be able to see Christmas Jumpers page
 
 

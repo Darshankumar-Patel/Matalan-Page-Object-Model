@@ -9,7 +9,7 @@ public class ResultPage extends DriverManager {
 
     public void result(){
         String actualTital = driver.getTitle();
-        assert actualTital.contains("Boys School Uniform Shop");
+        assert actualTital.contains("Christmas Jumpers");
     }
 
 }

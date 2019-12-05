@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 37564263400,
+              "duration": 17125711700,
               "status": "passed"
             },
             "line": 7,
@@ -24,15 +24,15 @@
           },
           {
             "result": {
-              "duration": 4894906900,
+              "duration": 3764186900,
               "status": "passed"
             },
             "line": 8,
-            "name": "I search for a \"Boys school uniform\"",
+            "name": "I search for a \"Christmas Jumpers\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Boys school uniform",
+                  "val": "Christmas Jumpers",
                   "offset": 16
                 }
               ],
@@ -42,13 +42,13 @@
           },
           {
             "result": {
-              "duration": 2158992500,
+              "duration": 260512500,
               "status": "passed"
             },
             "line": 9,
-            "name": "I should be able to see Boys school uniform page",
+            "name": "I should be able to see Christmas Jumpers page",
             "match": {
-              "location": "SearchSteps.i_should_be_able_to_see_Boys_school_uniform_page()"
+              "location": "SearchSteps.iShouldBeAbleToSeeChristmasJumpersPage()"
             },
             "keyword": "Then "
           }

@@ -19,7 +19,7 @@ public class DriverManager {
 @Before
 
     public void openBrowser(){
-        WebDriverManager.chromedriver().setup();
+    WebDriverManager.chromedriver().setup();
     driver = new ChromeDriver();
     driver.get("https://www.matalan.co.uk/");
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

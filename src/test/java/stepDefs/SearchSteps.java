@@ -28,10 +28,10 @@ public class SearchSteps {
 
    }
 
-    @Then("^I should be able to see Boys school uniform page$")
-    public void i_should_be_able_to_see_Boys_school_uniform_page() {
-    output.result();
-    openpage.closeBrowser();
+       @Then("^I should be able to see Christmas Jumpers page$")
+    public void iShouldBeAbleToSeeChristmasJumpersPage() {
+        output.result();
+        openpage.closeBrowser();
 
     }
 }
