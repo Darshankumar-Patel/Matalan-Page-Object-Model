@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 
 public class ResultPage extends DriverManager {
 
-    public void result(){
+       public void result(){
         String actualTital = driver.getTitle();
         assert actualTital.contains("Christmas Jumpers");
     }

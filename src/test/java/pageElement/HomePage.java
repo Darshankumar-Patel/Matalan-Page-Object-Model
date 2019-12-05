@@ -14,7 +14,8 @@ public void searchItem () {
     driver.findElement(By.name("q")).clear();
     driver.findElement(By.name("q")).sendKeys("Christmas Jumpers");
     driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
-    new WebDriverWait(driver,30).until(ExpectedConditions.visibilityOf(driver.findElement(By.name("q"))));
+    driver.findElement(By.name("q")).getText();
+    // new WebDriverWait(driver,30).until(ExpectedConditions.visibilityOf(driver.findElement(By.name("q"))));
 
     }
 }

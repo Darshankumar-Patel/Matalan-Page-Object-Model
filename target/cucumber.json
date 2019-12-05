@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 6,
-        "name": "Search for an item",
+        "name": "Search for a item",
         "description": "",
-        "id": "search;search-for-an-item",
+        "id": "search;search-for-a-item",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 17125711700,
+              "duration": 10646240301,
               "status": "passed"
             },
             "line": 7,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 3764186900,
+              "duration": 2403324400,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 260512500,
+              "duration": 2090003300,
               "status": "passed"
             },
             "line": 9,
@@ -56,7 +56,7 @@
       }
     ],
     "name": "Search",
-    "description": "As a user\r\nI want to search an item\r\nso that I can see the desired item",
+    "description": "As a user\r\nI want to search a item\r\nso that I can see the desired item",
     "id": "search",
     "keyword": "Feature",
     "uri": "src/test/resources/search.feature"
