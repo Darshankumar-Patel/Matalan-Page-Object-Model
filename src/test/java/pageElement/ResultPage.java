@@ -12,4 +12,5 @@ public class ResultPage extends DriverManager {
         assert actualTital.contains("Christmas Jumpers");
     }
 
+
 }

@@ -4,61 +4,55 @@
     "elements": [
       {
         "line": 6,
-        "name": "Search for a item",
+        "name": "Select Random Jumper from the screen",
         "description": "",
-        "id": "search;search-for-a-item",
+        "id": "select-random-jumper;select-random-jumper-from-the-screen",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10646240301,
+              "duration": 67588490900,
               "status": "passed"
             },
             "line": 7,
-            "name": "I am on home page",
+            "name": "I am on the search result page",
             "match": {
-              "location": "SearchSteps.i_am_on_home_page()"
+              "location": "RandomSteps.i_am_on_the_search_result_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2403324400,
-              "status": "passed"
+              "duration": 175732200,
+              "error_message": "java.lang.IllegalArgumentException: bound must be positive\r\n\tat java.util.Random.nextInt(Random.java:388)\r\n\tat utils.RandomNumber.generateRandomNumber(RandomNumber.java:8)\r\n\tat pageElement.SelectRandomJumper.selectanyjumper(SelectRandomJumper.java:23)\r\n\tat stepDefs.RandomSteps.i_Select_Random_Jumper(RandomSteps.java:28)\r\n\tat ✽.When I Select Random Jumper(src/test/resources/random.feature:8)\r\n",
+              "status": "failed"
             },
             "line": 8,
-            "name": "I search for a \"Christmas Jumpers\"",
+            "name": "I Select Random Jumper",
             "match": {
-              "arguments": [
-                {
-                  "val": "Christmas Jumpers",
-                  "offset": 16
-                }
-              ],
-              "location": "SearchSteps.i_search_for_a(String)"
+              "location": "RandomSteps.i_Select_Random_Jumper()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2090003300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 9,
-            "name": "I should be able to see Christmas Jumpers page",
+            "name": "I should be able to see the Selected Jumper",
             "match": {
-              "location": "SearchSteps.iShouldBeAbleToSeeChristmasJumpersPage()"
+              "location": "RandomSteps.i_should_be_able_to_see_the_Selected_Jumper()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Search",
-    "description": "As a user\r\nI want to search a item\r\nso that I can see the desired item",
-    "id": "search",
+    "name": "Select Random Jumper",
+    "description": "As an end user\r\nI want to select random Jumper\r\nSo that I can find my desire jumper",
+    "id": "select-random-jumper",
     "keyword": "Feature",
-    "uri": "src/test/resources/search.feature"
+    "uri": "src/test/resources/random.feature"
   }
 ]

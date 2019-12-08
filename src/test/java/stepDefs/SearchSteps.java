@@ -8,6 +8,7 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import pageElement.HomePage;
 import pageElement.ResultPage;
+import pageElement.SelectRandomJumper;
 
 public class SearchSteps {
 
@@ -31,7 +32,6 @@ public class SearchSteps {
        @Then("^I should be able to see Christmas Jumpers page$")
     public void iShouldBeAbleToSeeChristmasJumpersPage() {
         output.result();
-        openpage.closeBrowser();
 
     }
 }
